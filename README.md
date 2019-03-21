@@ -63,7 +63,7 @@ Adding an entry into the table:
 
      MariaDB [(db_name)]> insert into employee(id, name, department, salary) values(1,"James Borges","Electronics",58000.0);
 
-All strings (varchar) should be entered into double quotes. 
+__All strings (varchar) should be entered into double quotes.__
 
 We can also make an entry by the following:
 
@@ -81,7 +81,7 @@ To see the full table:
  
     select column_name from table_name
     
-when column name is * it will print all the columns.
+when column name is '*' it will print all the columns.
 
 Output will be a list of entries into the table:
 ![alt text](https://github.com/samuelpio01/mariadb-mysql/blob/master/mariadb-table-print.png)
@@ -100,15 +100,22 @@ Now say you want to fire a  query to get the salary of a specific employee. We c
         
        MariaDB [(db_name)]> select name,salary from employee where name = "Eden Hazard";
        
-This will show 2 columns of name and salary as shown below.
+We can also search the name and salary with respect to __ID__
+ 
+       MariaDB [(db_name)]> select name,salary from employee where id = 4;
+       
+Both these will give the same output as shown below but notice the way both the queries were fired one with respect to the _name_ and the other with respect to the _ID_.
 
 ![alt text](https://github.com/samuelpio01/mariadb-mysql/blob/master/using_where.png)
 
 Note that the __'where'__ keyword allows us to display in cases of when you want to use a condition.
 
+ 
+       
+
 ***********************************************************************************************************
 
 These are the basic queries of databases. There are much more to this which you can explore. 
 
-_I am open to feedback and if you feel that there should be some changes do let me know_
+_I am open to feedback and if you feel that there should be some changes to the above document do let me know._
 
