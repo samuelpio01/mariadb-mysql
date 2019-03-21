@@ -75,7 +75,7 @@ To see the full table:
 
     MariaDB [(db_name)]> select * from employee
 
- * means select all columns
+ __'*'__ means select all columns
  
  Syntax for printing:
  
