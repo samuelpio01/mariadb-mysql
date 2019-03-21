@@ -95,6 +95,20 @@ If we want to print a particular column (say salary column):
 If you want to print multiple columns then write each column with a comma in between in place of column name.
 
 
-Using the 'where' clause:
+Now say you want to fire a  query to get the salary of a specific employee. We can search that in more than one way. For example if we want the salary of Eden Hazard we can find it in the following way:
 
-.....//..... to be filled
+        
+       MariaDB [(db_name)]> select name,salary from employee where name = "Eden Hazard";
+       
+This will show 2 columns of name and salary as shown below.
+
+![alt text](https://github.com/samuelpio01/mariadb-mysql/blob/master/using_where.png)
+
+Note that the __'where'__ keyword allows us to display in cases of when you want to use a condition.
+
+############################################################################################################################
+
+These are the basic queries of databases. There are much more to this which you can explore. 
+
+_I am open to feedback and if you feel that there should be some changes do let me know_
+
