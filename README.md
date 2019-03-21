@@ -106,7 +106,7 @@ This will show 2 columns of name and salary as shown below.
 
 Note that the __'where'__ keyword allows us to display in cases of when you want to use a condition.
 
-############################################################################################################################
+***********************************************************************************************************
 
 These are the basic queries of databases. There are much more to this which you can explore. 
 
